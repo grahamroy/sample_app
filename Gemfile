@@ -9,6 +9,8 @@ gem 'rails', '3.0.3'
 
 gem 'sqlite3-ruby', :group => :development
 
+gem 'gravatar_image_tag'
+
 group :development do
   gem 'annotate-models'
 end
