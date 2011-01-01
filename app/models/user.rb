@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'digest'
 class User < ActiveRecord::Base
   attr_accessor :password
@@ -48,6 +49,6 @@ class User < ActiveRecord::Base
     Digest::SHA2.hexdigest(string)
   end
 
-
-
 end
+
+
