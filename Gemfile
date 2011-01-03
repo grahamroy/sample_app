@@ -11,8 +11,12 @@ gem 'sqlite3-ruby', :group => :development
 
 gem 'gravatar_image_tag'
 
+gem 'will_paginate'
+
+
 group :development do
   gem 'annotate-models'
+  gem 'faker'
 end
 
 
