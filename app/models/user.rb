@@ -36,6 +36,11 @@ class User < ActiveRecord::Base
     (user && user.salt == cookie_salt) ? user : nil
   end
 
+  def feed
+    #This is preliminary. See later
+    Micropost.where("user_id = ?", id)
+  end
+
   private
 
   def encrypt_password
